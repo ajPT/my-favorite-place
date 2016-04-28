@@ -378,8 +378,22 @@
                     <view key="view" contentMode="scaleToFill" id="1WJ-Kd-TMw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Hl-Tm-WkD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Hl-Tm-WkD" secondAttribute="trailing" id="R9Y-UI-8PM"/>
+                            <constraint firstItem="4Hl-Tm-WkD" firstAttribute="top" secondItem="1WJ-Kd-TMw" secondAttribute="top" id="Xif-10-Lqt"/>
+                            <constraint firstItem="4Hl-Tm-WkD" firstAttribute="leading" secondItem="1WJ-Kd-TMw" secondAttribute="leading" id="lz6-B7-A3E"/>
+                            <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="4Hl-Tm-WkD" secondAttribute="bottom" id="sM1-oG-QcX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="photoImg" destination="4Hl-Tm-WkD" id="YQH-KB-E9i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tj6-dn-FFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
