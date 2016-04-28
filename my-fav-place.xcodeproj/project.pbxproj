@@ -12,6 +12,8 @@
 		E040ECF21CD22A8400020225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E040ECF01CD22A8400020225 /* Main.storyboard */; };
 		E040ECF41CD22A8400020225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E040ECF31CD22A8400020225 /* Assets.xcassets */; };
 		E040ECF71CD22A8400020225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E040ECF51CD22A8400020225 /* LaunchScreen.storyboard */; };
+		E040ED021CD267E300020225 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED011CD267E300020225 /* ShadowedButton.swift */; };
+		E040ED041CD27DCB00020225 /* ShadowedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED031CD27DCB00020225 /* ShadowedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E040ECF31CD22A8400020225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E040ECF61CD22A8400020225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E040ECF81CD22A8400020225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E040ED011CD267E300020225 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedButton.swift; sourceTree = "<group>"; };
+		E040ED031CD27DCB00020225 /* ShadowedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		E040ECEB1CD22A8400020225 /* my-fav-place */ = {
 			isa = PBXGroup;
 			children = (
+				E040ED001CD2674E00020225 /* Controllers */,
+				E040ECFF1CD2674600020225 /* View */,
+				E040ECFE1CD2673F00020225 /* Model */,
 				E040ECEC1CD22A8400020225 /* AppDelegate.swift */,
-				E040ECEE1CD22A8400020225 /* ViewController.swift */,
-				E040ECF01CD22A8400020225 /* Main.storyboard */,
 				E040ECF31CD22A8400020225 /* Assets.xcassets */,
 				E040ECF51CD22A8400020225 /* LaunchScreen.storyboard */,
 				E040ECF81CD22A8400020225 /* Info.plist */,
 			);
 			path = "my-fav-place";
+			sourceTree = "<group>";
+		};
+		E040ECFE1CD2673F00020225 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E040ECFF1CD2674600020225 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E040ECF01CD22A8400020225 /* Main.storyboard */,
+				E040ED011CD267E300020225 /* ShadowedButton.swift */,
+				E040ED031CD27DCB00020225 /* ShadowedLabel.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E040ED001CD2674E00020225 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E040ECEE1CD22A8400020225 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E040ED021CD267E300020225 /* ShadowedButton.swift in Sources */,
+				E040ED041CD27DCB00020225 /* ShadowedLabel.swift in Sources */,
 				E040ECEF1CD22A8400020225 /* ViewController.swift in Sources */,
 				E040ECED1CD22A8400020225 /* AppDelegate.swift in Sources */,
 			);
