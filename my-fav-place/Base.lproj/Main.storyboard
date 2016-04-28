@@ -25,7 +25,9 @@
                                 <rect key="frame" x="20" y="136" width="199" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="199" id="VKi-eR-Jb9"/>
+                                    <constraint firstAttribute="height" constant="47" id="Z1s-em-bFV"/>
                                     <constraint firstAttribute="height" constant="47" id="dfN-yr-LXK"/>
+                                    <constraint firstAttribute="width" constant="199" id="qFV-2H-f42"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="55"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,7 +35,15 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="VKi-eR-Jb9"/>
+                                        <exclude reference="Z1s-em-bFV"/>
                                         <exclude reference="dfN-yr-LXK"/>
+                                        <exclude reference="qFV-2H-f42"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Z1s-em-bFV"/>
+                                        <include reference="qFV-2H-f42"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -46,21 +56,21 @@
                             <stackView opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="n9k-2F-UVz" userLabel="topStackView">
                                 <rect key="frame" x="20" y="20" width="98" height="62"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="RIVERSIDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qS5-N7-Ofv">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="RIVERSIDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qS5-N7-Ofv" customClass="ShadowedLabel" customModule="my_fav_place" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="98" height="18"/>
                                         <color key="backgroundColor" red="1" green="0.56724398860000003" blue="0.1150288961" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GREAT FOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFP-ZI-9Cf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GREAT FOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFP-ZI-9Cf" customClass="ShadowedLabel" customModule="my_fav_place" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="22" width="98" height="18"/>
                                         <color key="backgroundColor" red="1" green="0.56724398860000003" blue="0.1150288961" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CHARMING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gjk-aa-Rc9">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CHARMING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gjk-aa-Rc9" customClass="ShadowedLabel" customModule="my_fav_place" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44" width="98" height="18"/>
                                         <color key="backgroundColor" red="1" green="0.56724398860000003" blue="0.1150288961" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
@@ -69,7 +79,66 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zJg-iz-QJJ" userLabel="compassStackView">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="A6x-cl-tgl" userLabel="buttonsStackView">
+                                <rect key="frame" x="234" y="400" width="111" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgb-hm-BSf" customClass="ShadowedButton" customModule="my_fav_place" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="111" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="175" id="RSh-b9-X6E"/>
+                                            <constraint firstAttribute="height" constant="45" id="w75-sa-MuA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="ABOUT PORTO">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="RSh-b9-X6E"/>
+                                                <exclude reference="w75-sa-MuA"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="RSh-b9-X6E"/>
+                                                <include reference="w75-sa-MuA"/>
+                                            </mask>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7F1-y4-d8j" customClass="ShadowedButton" customModule="my_fav_place" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="40" width="111" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="PHOTOS">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PGr-Bb-1OO"/>
+                                    <constraint firstAttribute="height" constant="45" id="ff8-af-xU5"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PGr-Bb-1OO"/>
+                                        <exclude reference="ff8-af-xU5"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" axis="horizontal">
+                                    <mask key="constraints">
+                                        <include reference="PGr-Bb-1OO"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal" misplaced="YES">
+                                    <rect key="frame" x="20" y="340" width="760" height="45"/>
+                                    <mask key="constraints">
+                                        <include reference="ff8-af-xU5"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="113" y="637" width="175" height="100"/>
+                                </variation>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zJg-iz-QJJ" userLabel="compassStackView">
                                 <rect key="frame" x="20" y="240" width="127" height="35"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="52I-mX-s6X">
@@ -92,6 +161,9 @@
                                         <exclude reference="yTA-NQ-VaB"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="212" width="127" height="35"/>
+                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Prh-X7-mSH"/>
@@ -99,55 +171,94 @@
                                     </mask>
                                 </variation>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="A6x-cl-tgl" userLabel="buttonsStackView">
-                                <rect key="frame" x="234" y="400" width="175" height="96"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgb-hm-BSf" customClass="ShadowedButton" customModule="my_fav_place" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="43"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="175" id="UPc-rH-bFB"/>
-                                            <constraint firstAttribute="height" constant="43" id="VBp-ms-Occ"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="FIND OUT MORE">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7F1-y4-d8j" customClass="ShadowedButton" customModule="my_fav_place" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="53" width="175" height="43"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="PHOTOS">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="n9k-2F-UVz" firstAttribute="top" secondItem="j2m-hU-snn" secondAttribute="bottom" id="0xI-DS-apy"/>
+                            <constraint firstItem="roZ-YH-dEX" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="2Bk-Rg-qIi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A6x-cl-tgl" secondAttribute="trailing" id="6A4-vj-OMe"/>
                             <constraint firstItem="n9k-2F-UVz" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="92L-Ph-wNp"/>
                             <constraint firstItem="zJg-iz-QJJ" firstAttribute="top" secondItem="roZ-YH-dEX" secondAttribute="bottom" constant="41" id="CIP-Ff-bDQ"/>
                             <constraint firstAttribute="trailing" secondItem="tzG-Ok-MKd" secondAttribute="trailing" id="D1n-0m-nRf"/>
+                            <constraint firstItem="zJg-iz-QJJ" firstAttribute="top" secondItem="roZ-YH-dEX" secondAttribute="bottom" constant="29" id="FsI-OF-ZUp"/>
+                            <constraint firstItem="A6x-cl-tgl" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="Fy9-kU-hdp"/>
+                            <constraint firstItem="n9k-2F-UVz" firstAttribute="top" secondItem="j2m-hU-snn" secondAttribute="bottom" id="HQw-IN-x05"/>
+                            <constraint firstItem="roZ-YH-dEX" firstAttribute="top" secondItem="n9k-2F-UVz" secondAttribute="bottom" constant="25" id="Hb3-vU-skU"/>
+                            <constraint firstItem="prj-Fh-g96" firstAttribute="top" secondItem="A6x-cl-tgl" secondAttribute="bottom" constant="20" id="IAm-lE-qb7"/>
+                            <constraint firstItem="n9k-2F-UVz" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="Jrb-e2-D7h"/>
+                            <constraint firstItem="A6x-cl-tgl" firstAttribute="trailing" secondItem="SOH-Gy-LiW" secondAttribute="trailingMargin" id="K5i-ak-dcc"/>
+                            <constraint firstItem="roZ-YH-dEX" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="Nbc-KE-GOp"/>
+                            <constraint firstItem="zJg-iz-QJJ" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="Phf-4Z-Xm2"/>
                             <constraint firstItem="zJg-iz-QJJ" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="SnZ-3p-HgH"/>
                             <constraint firstItem="tzG-Ok-MKd" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leading" id="UUz-yo-smo"/>
+                            <constraint firstItem="zJg-iz-QJJ" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="aKz-18-8Ef"/>
+                            <constraint firstItem="n9k-2F-UVz" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="cNQ-Bu-BPh"/>
+                            <constraint firstItem="roZ-YH-dEX" firstAttribute="top" secondItem="n9k-2F-UVz" secondAttribute="bottom" constant="50" id="fLH-H9-Ryi"/>
+                            <constraint firstItem="prj-Fh-g96" firstAttribute="top" secondItem="A6x-cl-tgl" secondAttribute="bottom" constant="20" id="fSX-T4-Jv2"/>
+                            <constraint firstItem="A6x-cl-tgl" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="gZN-JF-m7y"/>
                             <constraint firstItem="roZ-YH-dEX" firstAttribute="top" secondItem="n9k-2F-UVz" secondAttribute="bottom" constant="70" id="kxN-Aw-leH"/>
                             <constraint firstItem="tzG-Ok-MKd" firstAttribute="top" secondItem="SOH-Gy-LiW" secondAttribute="top" id="o1l-ye-bsz"/>
+                            <constraint firstItem="n9k-2F-UVz" firstAttribute="top" secondItem="j2m-hU-snn" secondAttribute="bottom" constant="10" id="pJL-OW-NjR"/>
                             <constraint firstItem="roZ-YH-dEX" firstAttribute="leading" secondItem="SOH-Gy-LiW" secondAttribute="leadingMargin" id="rNr-rE-x64"/>
                             <constraint firstItem="prj-Fh-g96" firstAttribute="top" secondItem="tzG-Ok-MKd" secondAttribute="bottom" id="si5-7Q-lXV"/>
-                            <constraint firstItem="prj-Fh-g96" firstAttribute="top" secondItem="A6x-cl-tgl" secondAttribute="bottom" constant="75" id="vxA-y1-IJb"/>
+                            <constraint firstItem="zJg-iz-QJJ" firstAttribute="top" secondItem="roZ-YH-dEX" secondAttribute="bottom" constant="28" id="uY4-iv-KbG"/>
+                            <constraint firstItem="prj-Fh-g96" firstAttribute="top" secondItem="A6x-cl-tgl" secondAttribute="bottom" constant="65" id="vxA-y1-IJb"/>
                             <constraint firstItem="A6x-cl-tgl" firstAttribute="centerX" secondItem="SOH-Gy-LiW" secondAttribute="centerX" id="xg9-hp-ywz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="0xI-DS-apy"/>
                                 <exclude reference="92L-Ph-wNp"/>
+                                <exclude reference="HQw-IN-x05"/>
+                                <exclude reference="Jrb-e2-D7h"/>
+                                <exclude reference="cNQ-Bu-BPh"/>
+                                <exclude reference="pJL-OW-NjR"/>
+                                <exclude reference="2Bk-Rg-qIi"/>
+                                <exclude reference="Hb3-vU-skU"/>
+                                <exclude reference="Nbc-KE-GOp"/>
+                                <exclude reference="fLH-H9-Ryi"/>
                                 <exclude reference="kxN-Aw-leH"/>
                                 <exclude reference="rNr-rE-x64"/>
                                 <exclude reference="CIP-Ff-bDQ"/>
+                                <exclude reference="FsI-OF-ZUp"/>
+                                <exclude reference="Phf-4Z-Xm2"/>
                                 <exclude reference="SnZ-3p-HgH"/>
+                                <exclude reference="aKz-18-8Ef"/>
+                                <exclude reference="uY4-iv-KbG"/>
+                                <exclude reference="6A4-vj-OMe"/>
+                                <exclude reference="Fy9-kU-hdp"/>
+                                <exclude reference="K5i-ak-dcc"/>
+                                <exclude reference="gZN-JF-m7y"/>
                                 <exclude reference="xg9-hp-ywz"/>
+                                <exclude reference="IAm-lE-qb7"/>
+                                <exclude reference="fSX-T4-Jv2"/>
                                 <exclude reference="vxA-y1-IJb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Jrb-e2-D7h"/>
+                                <include reference="pJL-OW-NjR"/>
+                                <include reference="2Bk-Rg-qIi"/>
+                                <include reference="Hb3-vU-skU"/>
+                                <include reference="Phf-4Z-Xm2"/>
+                                <include reference="uY4-iv-KbG"/>
+                                <include reference="Fy9-kU-hdp"/>
+                                <include reference="K5i-ak-dcc"/>
+                                <include reference="IAm-lE-qb7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="HQw-IN-x05"/>
+                                <include reference="cNQ-Bu-BPh"/>
+                                <include reference="Nbc-KE-GOp"/>
+                                <include reference="fLH-H9-Ryi"/>
+                                <include reference="FsI-OF-ZUp"/>
+                                <include reference="aKz-18-8Ef"/>
+                                <include reference="6A4-vj-OMe"/>
+                                <include reference="gZN-JF-m7y"/>
+                                <include reference="fSX-T4-Jv2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
