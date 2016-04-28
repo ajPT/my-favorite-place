@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E040ECED1CD22A8400020225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ECEC1CD22A8400020225 /* AppDelegate.swift */; };
-		E040ECEF1CD22A8400020225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ECEE1CD22A8400020225 /* ViewController.swift */; };
+		E040ECEF1CD22A8400020225 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ECEE1CD22A8400020225 /* InitialViewController.swift */; };
 		E040ECF21CD22A8400020225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E040ECF01CD22A8400020225 /* Main.storyboard */; };
 		E040ECF41CD22A8400020225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E040ECF31CD22A8400020225 /* Assets.xcassets */; };
 		E040ECF71CD22A8400020225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E040ECF51CD22A8400020225 /* LaunchScreen.storyboard */; };
 		E040ED021CD267E300020225 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED011CD267E300020225 /* ShadowedButton.swift */; };
 		E040ED061CD2B36100020225 /* ShadowedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED051CD2B36100020225 /* ShadowedLabel.swift */; };
+		E040ED081CD2BDD900020225 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED071CD2BDD900020225 /* AboutViewController.swift */; };
+		E040ED0A1CD2BDE800020225 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED091CD2BDE800020225 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E040ECE91CD22A8400020225 /* my-fav-place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-fav-place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E040ECEC1CD22A8400020225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E040ECEE1CD22A8400020225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E040ECEE1CD22A8400020225 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		E040ECF11CD22A8400020225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E040ECF31CD22A8400020225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E040ECF61CD22A8400020225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E040ECF81CD22A8400020225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E040ED011CD267E300020225 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedButton.swift; sourceTree = "<group>"; };
 		E040ED051CD2B36100020225 /* ShadowedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabel.swift; sourceTree = "<group>"; };
+		E040ED071CD2BDD900020225 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E040ED091CD2BDE800020225 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,9 @@
 		E040ED001CD2674E00020225 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E040ECEE1CD22A8400020225 /* ViewController.swift */,
+				E040ECEE1CD22A8400020225 /* InitialViewController.swift */,
+				E040ED071CD2BDD900020225 /* AboutViewController.swift */,
+				E040ED091CD2BDE800020225 /* PhotosViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			files = (
 				E040ED021CD267E300020225 /* ShadowedButton.swift in Sources */,
 				E040ED061CD2B36100020225 /* ShadowedLabel.swift in Sources */,
-				E040ECEF1CD22A8400020225 /* ViewController.swift in Sources */,
+				E040ECEF1CD22A8400020225 /* InitialViewController.swift in Sources */,
+				E040ED0A1CD2BDE800020225 /* PhotosViewController.swift in Sources */,
+				E040ED081CD2BDD900020225 /* AboutViewController.swift in Sources */,
 				E040ECED1CD22A8400020225 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
