@@ -382,16 +382,116 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Hl-Tm-WkD">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PORTO IN PHOTOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oke-sG-CH3" customClass="ShadowedLabel" customModule="my_fav_place" customModuleProvider="target">
+                                <rect key="frame" x="411" y="20" width="189" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="K5M-FH-ubf"/>
+                                    <constraint firstAttribute="width" constant="189" id="KaE-Yp-j8d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqg-a0-XKb" customClass="ShadowedButton" customModule="my_fav_place" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="79" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="E3H-iq-7Oi"/>
+                                    <constraint firstAttribute="height" constant="30" id="cmo-8f-yBh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="BACK"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-Rb-suM">
+                                <rect key="frame" x="255" y="519" width="110" height="10"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="wTm-BW-bt6" userLabel="bulletYellow1">
+                                        <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="2Zp-hq-IEY"/>
+                                            <constraint firstAttribute="height" constant="10" id="B8E-hU-btb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="ENR-H0-Kqi" userLabel="bulletYellow2">
+                                        <rect key="frame" x="25" y="0.0" width="10" height="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="25" y="0.0" width="10" height="10"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="28l-63-iz0" userLabel="bulletYellow3">
+                                        <rect key="frame" x="50" y="0.0" width="10" height="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="50" y="0.0" width="10" height="10"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="pdF-4V-ojn" userLabel="bulletYellow4">
+                                        <rect key="frame" x="75" y="0.0" width="10" height="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="75" y="0.0" width="10" height="10"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="E1X-mu-Dk3" userLabel="bulletYellow5">
+                                        <rect key="frame" x="100" y="0.0" width="10" height="10"/>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="100" y="0.0" width="10" height="10"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="155" y="749" width="110" height="10"/>
+                                </variation>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Kqg-a0-XKb" firstAttribute="leading" secondItem="1WJ-Kd-TMw" secondAttribute="leadingMargin" constant="-20" id="8Ak-Z2-ddK"/>
+                            <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="41" id="GRv-98-aQ6"/>
+                            <constraint firstItem="yLg-Rb-suM" firstAttribute="centerX" secondItem="1WJ-Kd-TMw" secondAttribute="centerX" id="IaU-6L-90U"/>
                             <constraint firstAttribute="trailing" secondItem="4Hl-Tm-WkD" secondAttribute="trailing" id="R9Y-UI-8PM"/>
+                            <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="31" id="UW6-f2-Wxb"/>
+                            <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="68" id="UXq-OD-d1v"/>
                             <constraint firstItem="4Hl-Tm-WkD" firstAttribute="top" secondItem="1WJ-Kd-TMw" secondAttribute="top" id="Xif-10-Lqt"/>
+                            <constraint firstItem="oke-sG-CH3" firstAttribute="top" secondItem="R9i-KX-78t" secondAttribute="bottom" id="dkR-Eu-WnP"/>
+                            <constraint firstItem="Kqg-a0-XKb" firstAttribute="top" secondItem="R9i-KX-78t" secondAttribute="bottom" id="iNn-2G-mkX"/>
                             <constraint firstItem="4Hl-Tm-WkD" firstAttribute="leading" secondItem="1WJ-Kd-TMw" secondAttribute="leading" id="lz6-B7-A3E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oke-sG-CH3" secondAttribute="trailing" constant="-20" id="me6-lb-4uo"/>
                             <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="4Hl-Tm-WkD" secondAttribute="bottom" id="sM1-oG-QcX"/>
+                            <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="39" id="xil-CO-peh"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GRv-98-aQ6"/>
+                                <exclude reference="UW6-f2-Wxb"/>
+                                <exclude reference="UXq-OD-d1v"/>
+                                <exclude reference="xil-CO-peh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="UW6-f2-Wxb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="xil-CO-peh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="GRv-98-aQ6"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="UXq-OD-d1v"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
+                        <outlet property="bullet1Img" destination="wTm-BW-bt6" id="TnR-Cp-b7a"/>
+                        <outlet property="bullet2Img" destination="ENR-H0-Kqi" id="Tcl-tC-CXc"/>
+                        <outlet property="bullet3Img" destination="28l-63-iz0" id="3KX-d3-Duk"/>
+                        <outlet property="bullet4Img" destination="pdF-4V-ojn" id="Imn-fN-jzZ"/>
+                        <outlet property="bullet5Img" destination="E1X-mu-Dk3" id="p6N-Ve-0t1"/>
                         <outlet property="photoImg" destination="4Hl-Tm-WkD" id="YQH-KB-E9i"/>
                     </connections>
                 </viewController>
@@ -402,6 +502,7 @@
     </scenes>
     <resources>
         <image name="background" width="800" height="600"/>
+        <image name="bulletYellow" width="512" height="512"/>
         <image name="compass" width="35" height="35"/>
     </resources>
 </document>

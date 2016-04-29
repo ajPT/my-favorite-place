@@ -11,7 +11,8 @@ import UIKit
 class ShadowedLabel: UILabel {
 
     override func awakeFromNib() {
-        self.backgroundColor = UIColor(red: 255.0/255.0, green: 145.0/255.0, blue: 29.0/255.0, alpha: 0.45)
+        //self.backgroundColor = UIColor(red: 255.0/255.0, green: 145.0/255.0, blue: 29.0/255.0, alpha: 0.45)
+        self.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.45)
         self.textColor = UIColor.whiteColor()
     }
 
