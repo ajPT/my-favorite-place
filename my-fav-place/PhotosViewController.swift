@@ -41,6 +41,10 @@ class PhotosViewController: UIViewController {
         updateBulletImg()
     }
     
+    @IBAction func onBackPressed(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     func swiped(gesture: UIGestureRecognizer) {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
             switch swipeGesture.direction {
