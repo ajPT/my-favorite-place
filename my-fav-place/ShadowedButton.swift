@@ -20,7 +20,7 @@ class ShadowedButton: UIButton {
             if highlighted {
                 self.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.75)
             } else {
-                self.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.45)
+                self.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.65)
             }
         }
     }

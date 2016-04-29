@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -68,6 +69,9 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="22"/>
+                                        </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GREAT FOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFP-ZI-9Cf" customClass="ShadowedLabel" customModule="my_fav_place" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="22" width="98" height="18"/>
@@ -75,6 +79,9 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="26" width="150" height="23"/>
+                                        </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CHARMING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gjk-aa-Rc9" customClass="ShadowedLabel" customModule="my_fav_place" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44" width="98" height="18"/>
@@ -82,6 +89,9 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="53" width="150" height="22"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <constraints>
@@ -94,7 +104,8 @@
                                         <exclude reference="mJR-5a-pkD"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="20" width="150" height="75"/>
                                     <mask key="constraints">
                                         <include reference="i5k-jq-l2s"/>
                                         <include reference="mJR-5a-pkD"/>
@@ -115,7 +126,7 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="Prh-X7-mSH"/>
+                                    <constraint firstAttribute="height" constant="25" id="Prh-X7-mSH"/>
                                     <constraint firstAttribute="width" constant="127" id="yTA-NQ-VaB"/>
                                 </constraints>
                                 <variation key="default">
@@ -123,9 +134,6 @@
                                         <exclude reference="Prh-X7-mSH"/>
                                         <exclude reference="yTA-NQ-VaB"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="212" width="127" height="35"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
@@ -143,7 +151,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgb-hm-BSf" customClass="ShadowedButton" customModule="my_fav_place" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="111" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="175" id="RSh-b9-X6E"/>
+                                            <constraint firstAttribute="width" constant="200" id="RSh-b9-X6E"/>
                                             <constraint firstAttribute="height" constant="45" id="w75-sa-MuA"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
@@ -162,6 +170,9 @@
                                                 <include reference="w75-sa-MuA"/>
                                             </mask>
                                         </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
+                                        </variation>
                                         <connections>
                                             <segue destination="VDs-u3-NLF" kind="show" id="6TM-Qy-RK7"/>
                                         </connections>
@@ -172,6 +183,9 @@
                                         <state key="normal" title="PHOTOS">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="55" width="300" height="45"/>
+                                        </variation>
                                         <connections>
                                             <segue destination="yZh-tm-kUX" kind="show" id="Thz-v0-yt2"/>
                                         </connections>
@@ -196,14 +210,13 @@
                                         <include reference="PGr-Bb-1OO"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal" misplaced="YES">
-                                    <rect key="frame" x="20" y="340" width="760" height="45"/>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal">
                                     <mask key="constraints">
                                         <include reference="ff8-af-xU5"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="113" y="637" width="175" height="100"/>
+                                    <rect key="frame" x="113" y="637" width="200" height="100"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="246" y="648" width="300" height="100"/>
@@ -392,23 +405,278 @@
                                 <rect key="frame" x="0.0" y="75" width="600" height="525"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JHh-L0-5gp">
-                                <rect key="frame" x="20" y="100" width="560" height="470"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Hs3-eG-L6c" userLabel="landscapeSV">
+                                <rect key="frame" x="-10" y="65" width="3156" height="212"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-FG-TmY" userLabel="infoSV">
-                                        <rect key="frame" x="0.0" y="0.0" width="293" height="68"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="CsA-Bx-Q0g">
+                                        <rect key="frame" x="20" y="20" width="293" height="172"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bdp-yv-G2V">
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EFx-jh-ckP" userLabel="infoSV">
+                                                <rect key="frame" x="20" y="20" width="293" height="68"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9qt-tt-V5O">
+                                                        <rect key="frame" x="0.0" y="0.0" width="210" height="21"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="dzE-3s-qD6" userLabel="infoCompass">
+                                                                <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="23" id="cdA-0g-S4f"/>
+                                                                    <constraint firstAttribute="height" constant="21" id="vfL-jo-oE3"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GENERAL INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7j-PE-ZXa">
+                                                                <rect key="frame" x="28" y="0.0" width="182" height="21"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="U9T-Jh-k60">
+                                                        <rect key="frame" x="0.0" y="31" width="293" height="37"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="aM3-L7-lm1" userLabel="counRegSV">
+                                                                <rect key="frame" x="0.0" y="0.0" width="126" height="37"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* COUNTRY: Portugal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="cXc-65-PWh" userLabel="countryLbl">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="126" height="16"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* REGION: North" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="WOK-XA-vMX" userLabel="regionLbl">
+                                                                        <rect key="frame" x="0.0" y="21" width="126" height="16"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ecu-2t-SGX" userLabel="popDensSV">
+                                                                <rect key="frame" x="146" y="0.0" width="147" height="37"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* POPULATION:  237 591" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="C7t-Fh-NRt" userLabel="populationLbl">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="16"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* DENSITY: 5,736/km2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-XC-JQ0" userLabel="densityLbl">
+                                                                        <rect key="frame" x="0.0" y="21" width="131" height="16"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ogq-Z2-rod" userLabel="todoSV">
+                                                <rect key="frame" x="30" y="100" width="277" height="104"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="HfP-qt-VGY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="137" height="21"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="cfT-h3-ciD" userLabel="todoCompass">
+                                                                <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="21" id="E0s-bI-eF9"/>
+                                                                    <constraint firstAttribute="width" constant="23" id="Fmb-55-WAi"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="THINGS TO DO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaW-LP-cUg">
+                                                                <rect key="frame" x="28" y="0.0" width="109" height="21"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1fN-0y-iDC">
+                                                        <rect key="frame" x="0.0" y="31" width="277" height="73"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="sEA-DK-4Yi">
+                                                                <rect key="frame" x="0.0" y="0.0" width="138" height="73"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qKz-Qm-bfe" userLabel="wineSV">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="88" height="21"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="agp-BG-O6m">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="21" id="2PY-AJ-tBK"/>
+                                                                                    <constraint firstAttribute="width" constant="25" id="WAU-dS-feH"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Port Wine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-wr-JnR">
+                                                                                <rect key="frame" x="30" y="0.0" width="58" height="21"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4Kl-ol-Zap" userLabel="francesinhaSV">
+                                                                        <rect key="frame" x="0.0" y="26" width="101" height="21"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="Duj-pg-mjg">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="25" id="8TO-3D-MF7"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="u5j-JV-DhM"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Francesinha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="FJT-ky-99H">
+                                                                                <rect key="frame" x="30" y="0.0" width="71" height="21"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="70j-vG-Dc3" userLabel="serralvesSV">
+                                                                        <rect key="frame" x="0.0" y="52" width="138" height="21"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="monument" translatesAutoresizingMaskIntoConstraints="NO" id="Fh7-nX-Jtj">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="21" id="A6L-hp-ztA"/>
+                                                                                    <constraint firstAttribute="width" constant="25" id="HPB-7z-WMr"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Serralves Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Loa-0c-xb4">
+                                                                                <rect key="frame" x="30" y="0.0" width="108" height="21"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="V0Q-JC-SHi">
+                                                                <rect key="frame" x="158" y="0.0" width="119" height="73"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Lg-V5-sDv" userLabel="clerigosSV">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="21"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="monument" translatesAutoresizingMaskIntoConstraints="NO" id="gNM-nc-NnD">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="25" id="Ew4-eV-rcc"/>
+                                                                                    <constraint firstAttribute="height" constant="21" id="oPb-4t-UZS"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Clérigos Tower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Um7-PN-Twb">
+                                                                                <rect key="frame" x="30" y="0.0" width="89" height="21"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xCr-SJ-dTq" userLabel="gaiaSV">
+                                                                        <rect key="frame" x="0.0" y="26" width="119" height="21"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="see" translatesAutoresizingMaskIntoConstraints="NO" id="zqy-X3-W4v">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="21" id="5Yo-3R-dLz"/>
+                                                                                    <constraint firstAttribute="width" constant="25" id="SzH-hg-h68"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cais de Gaia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="KgJ-A6-kEl">
+                                                                                <rect key="frame" x="30" y="0.0" width="89" height="21"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6UK-Cb-fiv" userLabel="ribeiraSV">
+                                                                        <rect key="frame" x="0.0" y="52" width="119" height="21"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="see" translatesAutoresizingMaskIntoConstraints="NO" id="3MV-fX-Hpj">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="21" id="3B9-ci-Bc6"/>
+                                                                                    <constraint firstAttribute="width" constant="25" id="sfB-47-cSx"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cais da Ribeira" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="CQ4-XU-mcl">
+                                                                                <rect key="frame" x="30" y="0.0" width="89" height="21"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="U8X-Mm-wYU" userLabel="histSV">
+                                        <rect key="frame" x="321" y="20" width="2815" height="92"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ftj-oC-SUe">
+                                                <rect key="frame" x="0.0" y="0.0" width="2815" height="21"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="YXc-sA-nvZ" userLabel="histCompass">
+                                                        <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="23" id="9vF-fk-oxn"/>
+                                                            <constraint firstAttribute="height" constant="21" id="IxG-bp-m2A"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BRIEF HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfR-Vw-6h8">
+                                                        <rect key="frame" x="28" y="0.0" width="2787" height="21"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tdw-yu-9lT">
+                                                <rect key="frame" x="0.0" y="31" width="2815" height="61"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vYq-9s-pW3" userLabel="histTextLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="2815" height="61"/>
+                                                        <mutableString key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
+Modern Porto is as much a cosmopolitan centre as it is a city steeped in the historical events of the past. Being built on the slopes of the steep hills that overlook the River Douro, Porto has a truly unique appearance and its historic centre has already been classified by UNESCO as a World Heritage site. The 'granite city' is also known for its striking bridges and the much celebrated Port wine, which is stored and savoured by wine lovers all over the world.
+Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</mutableString>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3QS-tF-jAG" userLabel="portraitSV">
+                                <rect key="frame" x="0.0" y="70" width="400" height="720"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-FG-TmY" userLabel="infoSV">
+                                        <rect key="frame" x="20" y="20" width="360" height="68"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bdp-yv-G2V">
                                                 <rect key="frame" x="0.0" y="0.0" width="210" height="21"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="VZo-im-5gT" userLabel="infoCompass">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="VZo-im-5gT" userLabel="infoCompass">
                                                         <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="65e-bz-BDw"/>
                                                             <constraint firstAttribute="width" constant="23" id="jWb-FL-KXa"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENERAL INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSr-ur-8Cq">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GENERAL INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSr-ur-8Cq">
                                                         <rect key="frame" x="28" y="0.0" width="182" height="21"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -416,19 +684,19 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OyX-tc-LKq">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OyX-tc-LKq">
                                                 <rect key="frame" x="0.0" y="31" width="293" height="37"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CvS-ar-xhR" userLabel="counRegSV">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CvS-ar-xhR" userLabel="counRegSV">
                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="37"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* COUNTRY: Portugal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KI-FJ-vmL" userLabel="countryLbl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* COUNTRY: Portugal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="1KI-FJ-vmL" userLabel="countryLbl">
                                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="16"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* REGION: North" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHj-rN-sWG" userLabel="regionLbl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* REGION: North" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="kHj-rN-sWG" userLabel="regionLbl">
                                                                 <rect key="frame" x="0.0" y="21" width="126" height="16"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -436,16 +704,16 @@
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5fN-d7-slt" userLabel="popDensSV">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5fN-d7-slt" userLabel="popDensSV">
                                                         <rect key="frame" x="146" y="0.0" width="147" height="37"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* POPULATION:  237 591" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idY-98-WlH" userLabel="populationLbl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* POPULATION:  237 591" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="idY-98-WlH" userLabel="populationLbl">
                                                                 <rect key="frame" x="0.0" y="0.0" width="147" height="16"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* DENSITY: 5,736/km2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rC-a9-ihQ" userLabel="densityLbl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* DENSITY: 5,736/km2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="4rC-a9-ihQ" userLabel="densityLbl">
                                                                 <rect key="frame" x="0.0" y="21" width="131" height="16"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -456,59 +724,94 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="293" height="68"/>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="293" height="68"/>
+                                        </variation>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kQX-Nj-NOp" userLabel="histSV">
-                                        <rect key="frame" x="0.0" y="111" width="560" height="213"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kQX-Nj-NOp" userLabel="histSV">
+                                        <rect key="frame" x="20" y="98" width="360" height="289"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hTh-6B-aKw">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="21"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hTh-6B-aKw">
+                                                <rect key="frame" x="0.0" y="0.0" width="2815" height="21"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="FWd-eh-uLk" userLabel="histCompass">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="FWd-eh-uLk" userLabel="histCompass">
                                                         <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="Ms2-WT-Kxa"/>
                                                             <constraint firstAttribute="width" constant="23" id="flX-Fn-bFe"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BRIEF HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DB-M9-ouo">
-                                                        <rect key="frame" x="28" y="0.0" width="532" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BRIEF HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DB-M9-ouo">
+                                                        <rect key="frame" x="28" y="0.0" width="2787" height="21"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="28" y="0.0" width="2787" height="21"/>
+                                                        </variation>
+                                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="28" y="0.0" width="951097" height="21"/>
+                                                        </variation>
                                                     </label>
                                                 </subviews>
+                                                <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="2815" height="21"/>
+                                                </variation>
+                                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="951125" height="21"/>
+                                                </variation>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jNl-kr-hJq">
-                                                <rect key="frame" x="0.0" y="31" width="560" height="182"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jNl-kr-hJq">
+                                                <rect key="frame" x="0.0" y="31" width="2815" height="61"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="1dW-Sr-LzZ" userLabel="histTextLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="560" height="182"/>
-                                                        <string key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
-The city itself is built on the steep northern bank of the River Douro and radiates out to the Atlantic to the west and the ports of Matisinhos and Leça in the north.
-Rich from centuries of trade, modern Porto is as much a cosmopolitan centre as it is a city steeped in the historical events of the past. Being built on the slopes of the steep hills that overlook the River Douro, Porto has a truly unique appearance and its historic centre has already been classified by UNESCO as a World Heritage site. The 'granite city' is also known for its striking bridges and the much celebrated Port wine, which is stored and savoured by wine lovers all over the world.
-Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</string>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="1dW-Sr-LzZ" userLabel="histTextLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="2815" height="61"/>
+                                                        <mutableString key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
+Modern Porto is as much a cosmopolitan centre as it is a city steeped in the historical events of the past. Being built on the slopes of the steep hills that overlook the River Douro, Porto has a truly unique appearance and its historic centre has already been classified by UNESCO as a World Heritage site. The 'granite city' is also known for its striking bridges and the much celebrated Port wine, which is stored and savoured by wine lovers all over the world.
+Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</mutableString>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="0.0" width="2815" height="61"/>
+                                                        </variation>
+                                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="0.0" width="951125" height="0.0"/>
+                                                        </variation>
                                                     </label>
                                                 </subviews>
+                                                <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="31" width="2815" height="61"/>
+                                                </variation>
+                                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="31" width="951125" height="0.0"/>
+                                                </variation>
                                             </stackView>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="78" width="2815" height="92"/>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="308" y="0.0" width="951125" height="31"/>
+                                        </variation>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MM7-VL-pOr" userLabel="todoSV">
-                                        <rect key="frame" x="0.0" y="366" width="277" height="104"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MM7-VL-pOr" userLabel="todoSV">
+                                        <rect key="frame" x="20" y="596" width="360" height="104"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wQw-48-tnf">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wQw-48-tnf">
                                                 <rect key="frame" x="0.0" y="0.0" width="137" height="21"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="Jly-Fe-e7M" userLabel="todoCompass">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="Jly-Fe-e7M" userLabel="todoCompass">
                                                         <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="23" id="aNB-ow-4mJ"/>
                                                             <constraint firstAttribute="height" constant="21" id="p3k-dz-XOd"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THINGS TO DO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-RV-CSF">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="THINGS TO DO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-RV-CSF">
                                                         <rect key="frame" x="28" y="0.0" width="109" height="21"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -516,23 +819,23 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5zt-vu-pKs">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5zt-vu-pKs">
                                                 <rect key="frame" x="0.0" y="31" width="277" height="73"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DTI-Il-iK9">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DTI-Il-iK9">
                                                         <rect key="frame" x="0.0" y="0.0" width="138" height="73"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="boA-H3-Vn8" userLabel="wineSV">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="boA-H3-Vn8" userLabel="wineSV">
                                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="21"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="9G6-46-guW">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="9G6-46-guW">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="25" id="p5R-YY-914"/>
                                                                             <constraint firstAttribute="height" constant="21" id="vTj-Bq-5Wd"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Port Wine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrn-Lb-aHx">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Port Wine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Zrn-Lb-aHx">
                                                                         <rect key="frame" x="30" y="0.0" width="58" height="21"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -540,17 +843,17 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qiM-fa-MsP" userLabel="francesinhaSV">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qiM-fa-MsP" userLabel="francesinhaSV">
                                                                 <rect key="frame" x="0.0" y="26" width="101" height="21"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="iNt-RW-xZD">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="iNt-RW-xZD">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="21" id="ehu-2d-UMg"/>
                                                                             <constraint firstAttribute="width" constant="25" id="yYx-2U-OgC"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Francesinha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-DD-5Y8">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Francesinha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-DD-5Y8">
                                                                         <rect key="frame" x="30" y="0.0" width="71" height="21"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -558,17 +861,17 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lnk-Rk-9bP" userLabel="serralvesSV">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lnk-Rk-9bP" userLabel="serralvesSV">
                                                                 <rect key="frame" x="0.0" y="52" width="138" height="21"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monument" translatesAutoresizingMaskIntoConstraints="NO" id="7Bh-xf-dOG">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="monument" translatesAutoresizingMaskIntoConstraints="NO" id="7Bh-xf-dOG">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="25" id="78h-ig-G1S"/>
                                                                             <constraint firstAttribute="height" constant="21" id="88M-kx-j97"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serralves Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0p-nI-nEY">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Serralves Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="j0p-nI-nEY">
                                                                         <rect key="frame" x="30" y="0.0" width="108" height="21"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -578,20 +881,20 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wfS-04-Xuv">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wfS-04-Xuv">
                                                         <rect key="frame" x="158" y="0.0" width="119" height="73"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Q2r-eS-0gz" userLabel="clerigosSV">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Q2r-eS-0gz" userLabel="clerigosSV">
                                                                 <rect key="frame" x="0.0" y="0.0" width="119" height="21"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monument" translatesAutoresizingMaskIntoConstraints="NO" id="8Mr-FD-RrI">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="monument" translatesAutoresizingMaskIntoConstraints="NO" id="8Mr-FD-RrI">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="25" id="7Af-fn-9mT"/>
                                                                             <constraint firstAttribute="height" constant="21" id="9Od-rR-TAp"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clérigos Tower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BM6-4k-Z9f">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Clérigos Tower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="BM6-4k-Z9f">
                                                                         <rect key="frame" x="30" y="0.0" width="89" height="21"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -599,17 +902,17 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jhO-kD-HN5" userLabel="gaiaSV">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jhO-kD-HN5" userLabel="gaiaSV">
                                                                 <rect key="frame" x="0.0" y="26" width="119" height="21"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="see" translatesAutoresizingMaskIntoConstraints="NO" id="Hxa-XM-JYp">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="see" translatesAutoresizingMaskIntoConstraints="NO" id="Hxa-XM-JYp">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="25" id="LYj-HB-QSJ"/>
                                                                             <constraint firstAttribute="height" constant="21" id="knh-5x-IUa"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cais de Gaia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOf-3s-tGG">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cais de Gaia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="LOf-3s-tGG">
                                                                         <rect key="frame" x="30" y="0.0" width="89" height="21"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -617,17 +920,17 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jiJ-AP-FHA" userLabel="ribeiraSV">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jiJ-AP-FHA" userLabel="ribeiraSV">
                                                                 <rect key="frame" x="0.0" y="52" width="119" height="21"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="see" translatesAutoresizingMaskIntoConstraints="NO" id="299-D9-XZC">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="see" translatesAutoresizingMaskIntoConstraints="NO" id="299-D9-XZC">
                                                                         <rect key="frame" x="0.0" y="0.0" width="25" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="21" id="Ixg-Gc-EU3"/>
                                                                             <constraint firstAttribute="width" constant="25" id="QX0-Z5-4fM"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cais da Ribeira" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00t-ck-HQ4">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cais da Ribeira" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="00t-ck-HQ4">
                                                                         <rect key="frame" x="30" y="0.0" width="89" height="21"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -640,29 +943,109 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                 </subviews>
                                             </stackView>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="180" width="277" height="104"/>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="951448" y="0.0" width="277" height="104"/>
+                                        </variation>
                                     </stackView>
                                 </subviews>
+                                <variation key="heightClass=compact-widthClass=compact" axis="vertical">
+                                    <mask key="subviews">
+                                        <include reference="tAx-FG-TmY"/>
+                                        <include reference="kQX-Nj-NOp"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" axis="vertical">
+                                    <mask key="subviews">
+                                        <include reference="tAx-FG-TmY"/>
+                                        <include reference="kQX-Nj-NOp"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3QS-tF-jAG" secondAttribute="trailing" id="25j-FU-b1t"/>
                             <constraint firstItem="YBP-d7-mdv" firstAttribute="top" secondItem="xAN-4V-L2J" secondAttribute="bottom" constant="10" id="3dB-F8-0yu"/>
-                            <constraint firstItem="IDV-eI-ezs" firstAttribute="top" secondItem="JHh-L0-5gp" secondAttribute="bottom" constant="30" id="5lo-mh-cVr"/>
                             <constraint firstItem="dCN-Xs-qvm" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leadingMargin" constant="-20" id="6gH-e8-s9x"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dCN-Xs-qvm" secondAttribute="trailing" constant="-20" id="7Qn-Lf-sTn"/>
                             <constraint firstItem="dCN-Xs-qvm" firstAttribute="top" secondItem="uZE-Kr-dl3" secondAttribute="bottom" constant="15" id="BUx-xV-Esn"/>
+                            <constraint firstItem="Hs3-eG-L6c" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leadingMargin" id="DAG-hk-Oux"/>
                             <constraint firstItem="FfJ-Kg-oii" firstAttribute="top" secondItem="oeK-zL-soL" secondAttribute="top" id="DTk-oD-cx3"/>
                             <constraint firstItem="uZE-Kr-dl3" firstAttribute="top" secondItem="xAN-4V-L2J" secondAttribute="bottom" constant="10" id="H8E-MQ-LCc"/>
                             <constraint firstItem="uZE-Kr-dl3" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leadingMargin" constant="-20" id="JHp-xS-6xL"/>
-                            <constraint firstItem="JHh-L0-5gp" firstAttribute="top" secondItem="uZE-Kr-dl3" secondAttribute="bottom" constant="40" id="KkZ-15-NLS"/>
+                            <constraint firstItem="Hs3-eG-L6c" firstAttribute="top" secondItem="uZE-Kr-dl3" secondAttribute="bottom" constant="30" id="NRq-KI-3wy"/>
                             <constraint firstItem="IDV-eI-ezs" firstAttribute="top" secondItem="FfJ-Kg-oii" secondAttribute="bottom" id="NgQ-vS-cg3"/>
-                            <constraint firstItem="JHh-L0-5gp" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leadingMargin" id="TjY-Tf-hZM"/>
+                            <constraint firstItem="Hs3-eG-L6c" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leadingMargin" id="O9d-IX-FRZ"/>
+                            <constraint firstItem="IDV-eI-ezs" firstAttribute="top" secondItem="Hs3-eG-L6c" secondAttribute="bottom" constant="10" id="Vkv-8x-TeU"/>
                             <constraint firstAttribute="trailing" secondItem="FfJ-Kg-oii" secondAttribute="trailing" id="asC-Zp-rcL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="JHh-L0-5gp" secondAttribute="trailing" id="eXi-lU-2tB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hs3-eG-L6c" secondAttribute="trailing" id="cBL-iv-8oH"/>
+                            <constraint firstItem="3QS-tF-jAG" firstAttribute="top" secondItem="uZE-Kr-dl3" secondAttribute="bottom" constant="30" id="ehm-0S-DP5"/>
                             <constraint firstItem="IDV-eI-ezs" firstAttribute="top" secondItem="dCN-Xs-qvm" secondAttribute="bottom" id="fS8-6i-rlI"/>
+                            <constraint firstItem="Hs3-eG-L6c" firstAttribute="top" secondItem="uZE-Kr-dl3" secondAttribute="bottom" constant="30" id="ixD-oP-ClA"/>
+                            <constraint firstItem="IDV-eI-ezs" firstAttribute="top" secondItem="Hs3-eG-L6c" secondAttribute="bottom" constant="20" id="k3G-TN-3en"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YBP-d7-mdv" secondAttribute="trailing" constant="-20" id="lJ5-Jc-zol"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hs3-eG-L6c" secondAttribute="trailing" id="qMW-zu-7pf"/>
+                            <constraint firstItem="3QS-tF-jAG" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leadingMargin" id="xAd-6d-hhC"/>
                             <constraint firstItem="FfJ-Kg-oii" firstAttribute="leading" secondItem="oeK-zL-soL" secondAttribute="leading" id="yJI-qI-Q4P"/>
+                            <constraint firstItem="IDV-eI-ezs" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3QS-tF-jAG" secondAttribute="bottom" constant="30" id="yso-se-sps"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Hs3-eG-L6c"/>
+                                <exclude reference="3QS-tF-jAG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="25j-FU-b1t"/>
+                                <exclude reference="ehm-0S-DP5"/>
+                                <exclude reference="xAd-6d-hhC"/>
+                                <exclude reference="DAG-hk-Oux"/>
+                                <exclude reference="NRq-KI-3wy"/>
+                                <exclude reference="O9d-IX-FRZ"/>
+                                <exclude reference="cBL-iv-8oH"/>
+                                <exclude reference="ixD-oP-ClA"/>
+                                <exclude reference="qMW-zu-7pf"/>
+                                <exclude reference="Vkv-8x-TeU"/>
+                                <exclude reference="k3G-TN-3en"/>
+                                <exclude reference="yso-se-sps"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Hs3-eG-L6c"/>
+                                <exclude reference="3QS-tF-jAG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="DAG-hk-Oux"/>
+                                <include reference="NRq-KI-3wy"/>
+                                <include reference="cBL-iv-8oH"/>
+                                <include reference="Vkv-8x-TeU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="Hs3-eG-L6c"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="O9d-IX-FRZ"/>
+                                <include reference="ixD-oP-ClA"/>
+                                <include reference="qMW-zu-7pf"/>
+                                <include reference="k3G-TN-3en"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="3QS-tF-jAG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="25j-FU-b1t"/>
+                                <include reference="ehm-0S-DP5"/>
+                                <include reference="xAd-6d-hhC"/>
+                                <include reference="yso-se-sps"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kqp-Oc-YnI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -708,26 +1091,26 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                     <action selector="onBackPressed:" destination="yZh-tm-kUX" eventType="touchUpInside" id="rka-13-Gtz"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-Rb-suM">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-Rb-suM">
                                 <rect key="frame" x="255" y="519" width="110" height="10"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="wTm-BW-bt6" userLabel="bulletYellow1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="wTm-BW-bt6" userLabel="bulletYellow1">
                                         <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="10" id="2Zp-hq-IEY"/>
                                             <constraint firstAttribute="height" constant="10" id="B8E-hU-btb"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="ENR-H0-Kqi" userLabel="bulletYellow2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="ENR-H0-Kqi" userLabel="bulletYellow2">
                                         <rect key="frame" x="25" y="0.0" width="10" height="10"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="28l-63-iz0" userLabel="bulletYellow3">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="28l-63-iz0" userLabel="bulletYellow3">
                                         <rect key="frame" x="50" y="0.0" width="10" height="10"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="pdF-4V-ojn" userLabel="bulletYellow4">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="pdF-4V-ojn" userLabel="bulletYellow4">
                                         <rect key="frame" x="75" y="0.0" width="10" height="10"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="E1X-mu-Dk3" userLabel="bulletYellow5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="E1X-mu-Dk3" userLabel="bulletYellow5">
                                         <rect key="frame" x="100" y="0.0" width="10" height="10"/>
                                     </imageView>
                                 </subviews>
@@ -745,6 +1128,7 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                             <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="31" id="UW6-f2-Wxb"/>
                             <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="68" id="UXq-OD-d1v"/>
                             <constraint firstItem="4Hl-Tm-WkD" firstAttribute="top" secondItem="1WJ-Kd-TMw" secondAttribute="top" id="Xif-10-Lqt"/>
+                            <constraint firstItem="xeP-7h-Qkf" firstAttribute="top" secondItem="yLg-Rb-suM" secondAttribute="bottom" constant="71" id="ZuK-JB-30R"/>
                             <constraint firstItem="oke-sG-CH3" firstAttribute="top" secondItem="R9i-KX-78t" secondAttribute="bottom" constant="10" id="dkR-Eu-WnP"/>
                             <constraint firstItem="Kqg-a0-XKb" firstAttribute="top" secondItem="R9i-KX-78t" secondAttribute="bottom" constant="10" id="iNn-2G-mkX"/>
                             <constraint firstItem="4Hl-Tm-WkD" firstAttribute="leading" secondItem="1WJ-Kd-TMw" secondAttribute="leading" id="lz6-B7-A3E"/>
