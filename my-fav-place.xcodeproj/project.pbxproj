@@ -16,6 +16,7 @@
 		E040ED061CD2B36100020225 /* ShadowedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED051CD2B36100020225 /* ShadowedLabel.swift */; };
 		E040ED081CD2BDD900020225 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED071CD2BDD900020225 /* AboutViewController.swift */; };
 		E040ED0A1CD2BDE800020225 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED091CD2BDE800020225 /* PhotosViewController.swift */; };
+		E040ED0C1CD37ED800020225 /* ShadowedBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040ED0B1CD37ED800020225 /* ShadowedBackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E040ED051CD2B36100020225 /* ShadowedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabel.swift; sourceTree = "<group>"; };
 		E040ED071CD2BDD900020225 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E040ED091CD2BDE800020225 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		E040ED0B1CD37ED800020225 /* ShadowedBackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedBackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E040ECF01CD22A8400020225 /* Main.storyboard */,
 				E040ED011CD267E300020225 /* ShadowedButton.swift */,
 				E040ED051CD2B36100020225 /* ShadowedLabel.swift */,
+				E040ED0B1CD37ED800020225 /* ShadowedBackButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				E040ECEF1CD22A8400020225 /* InitialViewController.swift in Sources */,
 				E040ED0A1CD2BDE800020225 /* PhotosViewController.swift in Sources */,
 				E040ED081CD2BDD900020225 /* AboutViewController.swift in Sources */,
+				E040ED0C1CD37ED800020225 /* ShadowedBackButton.swift in Sources */,
 				E040ECED1CD22A8400020225 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				E040ECFD1CD22A8400020225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
