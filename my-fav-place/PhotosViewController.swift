@@ -10,7 +10,7 @@ import UIKit
 
 class PhotosViewController: UIViewController {
 
-    var photosArray = ["night", "barcos", "ribeira", "bolhao", "caves"]
+    let photosArray = ["night", "barcos", "ribeira", "bolhao", "caves"]
     var bulletsArray = [UIImageView]()
     var imageIndex = 0
     let DIM_ALPHA: CGFloat = 0.45
