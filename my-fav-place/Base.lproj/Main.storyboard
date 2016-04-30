@@ -387,14 +387,13 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZE-Kr-dl3" customClass="ShadowedBackButton" customModule="my_fav_place" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="30" width="79" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZE-Kr-dl3" customClass="ShadowedBackButton" customModule="my_fav_place" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="30" width="20" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="PPu-B6-wCx"/>
-                                    <constraint firstAttribute="width" constant="79" id="h3N-6m-aAK"/>
+                                    <constraint firstAttribute="width" constant="20" id="h3N-6m-aAK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="&lt;BACK">
+                                <state key="normal" title="&lt;BACK" image="arrows">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -647,9 +646,9 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vYq-9s-pW3" userLabel="histTextLabel">
                                                         <rect key="frame" x="0.0" y="0.0" width="2815" height="61"/>
-                                                        <mutableString key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
+                                                        <string key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
 Modern Porto is as much a cosmopolitan centre as it is a city steeped in the historical events of the past. Being built on the slopes of the steep hills that overlook the River Douro, Porto has a truly unique appearance and its historic centre has already been classified by UNESCO as a World Heritage site. The 'granite city' is also known for its striking bridges and the much celebrated Port wine, which is stored and savoured by wine lovers all over the world.
-Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</mutableString>
+Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -769,9 +768,9 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="1dW-Sr-LzZ" userLabel="histTextLabel">
                                                         <rect key="frame" x="0.0" y="0.0" width="2815" height="61"/>
-                                                        <mutableString key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
+                                                        <string key="text">This gracious capital of the north is Portugal's second largest city and one of the most beautiful in Europe.
 Modern Porto is as much a cosmopolitan centre as it is a city steeped in the historical events of the past. Being built on the slopes of the steep hills that overlook the River Douro, Porto has a truly unique appearance and its historic centre has already been classified by UNESCO as a World Heritage site. The 'granite city' is also known for its striking bridges and the much celebrated Port wine, which is stored and savoured by wine lovers all over the world.
-Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</mutableString>
+Porto has the reputation of being a hard working city. Indeed there is is a saying which succinctly sums it up: "Coimbra studies, Braga prays, Lisbon shows off and Porto works”.</string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -998,9 +997,6 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                 <exclude reference="3QS-tF-jAG"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="25j-FU-b1t"/>
-                                <exclude reference="ehm-0S-DP5"/>
-                                <exclude reference="xAd-6d-hhC"/>
                                 <exclude reference="DAG-hk-Oux"/>
                                 <exclude reference="NRq-KI-3wy"/>
                                 <exclude reference="O9d-IX-FRZ"/>
@@ -1010,6 +1006,9 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                 <exclude reference="Vkv-8x-TeU"/>
                                 <exclude reference="k3G-TN-3en"/>
                                 <exclude reference="yso-se-sps"/>
+                                <exclude reference="25j-FU-b1t"/>
+                                <exclude reference="ehm-0S-DP5"/>
+                                <exclude reference="xAd-6d-hhC"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -1040,10 +1039,10 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                 <include reference="3QS-tF-jAG"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="yso-se-sps"/>
                                 <include reference="25j-FU-b1t"/>
                                 <include reference="ehm-0S-DP5"/>
                                 <include reference="xAd-6d-hhC"/>
-                                <include reference="yso-se-sps"/>
                             </mask>
                         </variation>
                     </view>
@@ -1077,20 +1076,6 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqg-a0-XKb" customClass="ShadowedBackButton" customModule="my_fav_place" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="30" width="79" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="79" id="E3H-iq-7Oi"/>
-                                    <constraint firstAttribute="height" constant="30" id="cmo-8f-yBh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="&lt;BACK">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onBackPressed:" destination="yZh-tm-kUX" eventType="touchUpInside" id="rka-13-Gtz"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-Rb-suM">
                                 <rect key="frame" x="255" y="519" width="110" height="10"/>
                                 <subviews>
@@ -1118,6 +1103,19 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                     <rect key="frame" x="155" y="749" width="110" height="10"/>
                                 </variation>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqg-a0-XKb" customClass="ShadowedBackButton" customModule="my_fav_place" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="30" width="20" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="E3H-iq-7Oi"/>
+                                    <constraint firstAttribute="height" constant="30" id="cmo-8f-yBh"/>
+                                </constraints>
+                                <state key="normal" title="&lt;BACK" image="arrows">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onBackPressed:" destination="yZh-tm-kUX" eventType="touchUpInside" id="rka-13-Gtz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1180,6 +1178,7 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
         </scene>
     </scenes>
     <resources>
+        <image name="arrows" width="512" height="512"/>
         <image name="background" width="800" height="600"/>
         <image name="bulletYellow" width="512" height="512"/>
         <image name="compass" width="35" height="35"/>
